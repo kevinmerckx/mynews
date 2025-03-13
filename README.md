@@ -8,10 +8,9 @@
 
 ## Goal
 
-Build a personalized news dashboard where users can:
+Build a personalized space flight news dashboard where users can:
 
-* Search for news articles on a specific topic
-* Filter articles by category (business, tech, sports, etc.)
+* Search for space flight articles on a specific topic
 * Save favorite articles to a backend
 * View saved articles in a separate section
 * Implement pagination for better UX
@@ -30,8 +29,7 @@ Build a personalized news dashboard where users can:
 ### Welcome screen
 
 * Search bar to query news by keywords
-* Dropdown to filter by category (tech, sports, business, etc.)
-* Display articles (title, description, source, link)
+* Display articles (title, summary, source, link, author)
 * “Save” button to store articles in the backend
 * Pagination for better user experience
 
@@ -40,4 +38,3 @@ Build a personalized news dashboard where users can:
 * Side navigation menu where users can access the welcome screen and the saved articles
 * On a saved article page, display the article
 * a "Delete" button to delete it
-
