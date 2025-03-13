@@ -10,7 +10,7 @@
 
 Build a personalized space flight news dashboard where users can:
 
-* Search for space flight articles on a specific topic
+* Search for space flight articles
 * Save favorite articles to a backend
 * View saved articles in a separate section
 * Implement pagination for better UX
