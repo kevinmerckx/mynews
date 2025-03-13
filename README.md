@@ -20,7 +20,7 @@ Build a personalized news dashboard where users can:
 
 * before we start anything, explain your choice of architecture and tech stack
 * use [https://spaceflightnewsapi.net/]
-* use **any** tool that can speed you up: a UI library, a framework
+* use **any** tool that can speed you up: a UI library, a framework, etc.
 * this repository is set up with Nx. You are free to use it or NOT use it
 * take shortcuts where needed, functionnality matters over style here. Features are ordered by priority
 * do not bother with user authentication yet, assume there is only one user in your system
