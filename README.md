@@ -27,11 +27,6 @@ Build a personalized news dashboard where users can:
 
 ## Features
 
-### Rate Limits
-
-* we use the free version of the API, for the next hour you are going to test a lot and maybe reach the limit of 100 requests per day
-* let's discuss and solve that immediately!
-
 ### Welcome screen
 
 * Search bar to query news by keywords
