@@ -1,4 +1,4 @@
-# 🚀 Challenge: “Personalized Space Flight News Dashboard” (Using [spaceflightnewsapi.net])
+# 🚀 Challenge: “Personalized Space Flight News Dashboard” (Using [spaceflightnewsapi.net](https://spaceflightnewsapi.net))
 
 ### Ready?
 
@@ -15,10 +15,12 @@ Build a personalized space flight news dashboard where users can:
 * View saved articles in a separate section
 * Implement pagination for better UX
 
+Inspiration for design and understanding => [Minimalist Design](./design.jpeg)
+
 ## Approach
 
 * before we start anything, explain your choice of architecture and tech stack
-* use [https://spaceflightnewsapi.net/]
+* use [https://spaceflightnewsapi.net/]()
 * use **any** tool that can speed you up: a UI library, a framework, etc.
 * this repository is set up with Nx. You are free to use it or NOT use it
 * take shortcuts where needed, functionnality matters over style here. Features are ordered by priority
