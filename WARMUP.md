@@ -70,5 +70,3 @@ assert.deepStrictEqual(filterIncompleteTasks(testTasks), expectedOutput);
 
 console.log("All tests passed!");
 ```
-
-Good luck and have fun!
