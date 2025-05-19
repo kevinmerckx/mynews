@@ -40,3 +40,11 @@ Inspiration for design and understanding => [Minimalist Design](./design.jpeg)
 * Side navigation menu where users can access the welcome screen and the saved articles
 * On a saved article page, display the article
 * a "Delete" button to delete it
+
+
+### Already set up for you
+
+* A React app: `npx nx serve react`
+* A Nextjs app: `npx nx start next` <strong>Not "serve", "start"</strong>
+* A Nestjs app: `npx nx serve nest`
+* A Expressjs app: `npx nx serve express`

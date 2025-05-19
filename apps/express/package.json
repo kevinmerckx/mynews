@@ -1,0 +1,33 @@
+{
+  "name": "@mynews/express",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "targets": {
+      "serve": {
+        "executor": "@nx/js:node",
+        "defaultConfiguration": "development",
+        "dependsOn": [
+          "build"
+        ],
+        "options": {
+          "buildTarget": "@mynews/express:build",
+          "runBuildTargetDependencies": false
+        },
+        "configurations": {
+          "development": {
+            "buildTarget": "@mynews/express:build:development"
+          },
+          "production": {
+            "buildTarget": "@mynews/express:build:production"
+          }
+        }
+      },
+      "test": {
+        "options": {
+          "passWithNoTests": true
+        }
+      }
+    }
+  }
+}
