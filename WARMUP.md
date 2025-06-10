@@ -36,37 +36,3 @@ const tasks = [
 ]
 ```
 
----
-
-## Task 1: Implement the Function
-Write the `filterIncompleteTasks` function in TypeScript:
-
-```ts
-function filterIncompleteTasks(tasks: Task[]): Task[] {
-  return tasks.filter(task => !task.completed);
-}
-```
-
----
-
-## Task 2: Write Basic Unit Tests
-Write unit tests for the function using `assert`.
-
-```ts
-import assert from "assert";
-
-const testTasks: Task[] = [
-  { id: 1, title: "Task 1", completed: false },
-  { id: 2, title: "Task 2", completed: true },
-  { id: 3, title: "Task 3", completed: false }
-];
-
-const expectedOutput: Task[] = [
-  { id: 1, title: "Task 1", completed: false },
-  { id: 3, title: "Task 3", completed: false }
-];
-
-assert.deepStrictEqual(filterIncompleteTasks(testTasks), expectedOutput);
-
-console.log("All tests passed!");
-```
